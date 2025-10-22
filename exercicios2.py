@@ -35,7 +35,7 @@ print("Valor total a ser pago: ", valorConta + (valorConta * (valorGorjeta / 100
 '''tempoMinutos = int(input("Digite o tempo em minutos: "))
 tempoDecimal = tempoMinutos / 60
 tempoHoras = ((tempoDecimal - int(tempoDecimal)) * 60) / 100
-print("Tempo em horas: ", int(tempoDecimal) + tempoHoras)'''
+print("Tempo em horas: ", round(int(tempoDecimal) + tempoHoras , 2))'''
 
 #Exercicio 7
 
