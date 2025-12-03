@@ -1,0 +1,1 @@
+#Leia o valor de um produto e o tipo de pagamento (1 para à vista, 2 para cartão, 3 para boleto) e calcule o valor final considerando regras diferentes para cada forma de pagamento.
