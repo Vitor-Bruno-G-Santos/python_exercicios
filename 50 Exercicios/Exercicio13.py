@@ -2,7 +2,7 @@
 valido = False
 while valido == False:
     naoUse = " !#$%^&*()+="
-    dominios = ["hotmail.com.br", "hotmail.com", "gmail.com", "gmail.com.br"]
+    dominios = ["hotmail.com.br", "hotmail.com", "gmail.com"]
     email = str(input("Digite o seu email (obs: pode ser hotmail ou gmail): "))
     if any(especial in email for especial in naoUse):
         print("Email contem caracteres invalidos\nExemplo ' ', '!', '#', '$', '%', '^', '&', '*', '(', ')', '+', '='")
@@ -30,6 +30,3 @@ while valido == False:
                 else:
                     print("Email invalido")
                     break
-                
-                
-                        
