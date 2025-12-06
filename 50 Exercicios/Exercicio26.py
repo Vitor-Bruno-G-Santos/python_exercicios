@@ -1,0 +1,1 @@
+#Leia uma lista de números inteiros e gere outra lista contendo apenas os números positivos. Exiba ambas as listas.
