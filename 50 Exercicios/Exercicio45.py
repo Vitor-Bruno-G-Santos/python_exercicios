@@ -1,0 +1,1 @@
+#Leia vários números até que o usuário digite uma palavra-chave para encerrar. Ao final, exiba a quantidade, soma, média, maior e menor valor.

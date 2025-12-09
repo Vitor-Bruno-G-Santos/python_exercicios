@@ -1,3 +1,4 @@
+#Leia a idade de uma pessoa e classifique-a em: criança (0–11), adolescente (12–17), adulto (18–59) ou idoso (60+). Se a idade for negativa ou maior que 120, informe que a idade é inválida.
 while True:
     try:
         

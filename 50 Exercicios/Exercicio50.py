@@ -1,0 +1,1 @@
+#Leia várias frases digitadas pelo usuário e ao final exiba quantas foram digitadas, quantos caracteres foram registrados e qual frase foi a mais longa, além de contar quantas vezes uma palavra-chave aparece no conjunto das frases.

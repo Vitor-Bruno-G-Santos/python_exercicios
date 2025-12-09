@@ -19,6 +19,7 @@ while True:
         for i in enumerate(notasAcima):
             print(f"{i[0] + 1} Nota acima da media: {i[1]}")
         print(f"Média: {media}")
+        break
 
 
     except ValueError:

@@ -26,6 +26,7 @@ while True:
         print(f"Total gasto = {total}")
         print(f"Produto mais barato: {precoMin}")
         print(f"Produto mais caro: {precoMax}")
+        break
 
     except ValueError:
         print("O valor não é um numero inteiro")
