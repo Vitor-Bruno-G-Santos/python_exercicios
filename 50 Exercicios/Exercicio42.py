@@ -1,1 +1,2 @@
 #Leia uma expressão aritmética simples digitada como texto, avalie e exiba o resultado, tratando expressões inválidas.
+
