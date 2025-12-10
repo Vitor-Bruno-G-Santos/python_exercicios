@@ -2,8 +2,16 @@ def notasAlunos():
     try:
         quantNotas = int(input("Digite quantas notas este aluno possui: "))
         notas = []
-        for i in range(quantNotas):
-            notas.append(float(input(f"Digite a {i + 1}º nota: ")))     
+        i = 0
+        
+        while i < quantNotas:
+            notaDigitada = float(input(f"Digite a {i + 1}º nota: "))
+            if notaDigitada <= 10 and notaDigitada >= 0:
+                notas.append(notaDigitada)    
+                i += 1
+            else: 
+                print("As notas devem ser de 0 a 10")
+
         return notas
     except ValueError:
         print("O numero digitado não é um numero ou não é um numero inteiro")
@@ -27,9 +35,14 @@ def classificaAluno(media : float):
     else:
         return "Reprovado"
 def Main():
-    notas = notasAlunos()
-    media = mediaNota(notas)
-    classificacao = classificaAluno(media)
-    print(f"Notas: {notas}\nMédia: {media}\nSituação: {classificacao}")
+    while True:
+        try:
+            notas = notasAlunos()
+            media = mediaNota(notas)
+            classificacao = classificaAluno(media)
+            print(f"Notas: {notas}\nMédia: {media}\nSituação: {classificacao}")
+            break
+        except:
+            print("Ocorreu um erro")
 
 Main()
