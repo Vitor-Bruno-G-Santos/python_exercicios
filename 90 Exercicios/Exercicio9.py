@@ -1,3 +1,5 @@
+#Faça um algoritmo que leia o nome de um aluno, o nome da disciplina, nota de 3 provas e calcule a média desse aluno e verifique se o aluno foi aprovado. Sabendo que para ser aprovado a média deverá ser maior ou igual a 6,0. Posteriormente imprima o resultado de cada variável linha abaixo de linha
+
 nomeAluno = str(input("Digite o nome do aluno: "))
 disciplina = str(input("Qual a disciplina: "))
 nota1 = float(input("Digite a nota 1: "))

@@ -1,3 +1,5 @@
+#Faça um algoritmo que o usuário possa digitar o seu nome e a sua idade. Utilizando a tabela a baixo, verifique em qual item se enquadra a idade da pessoa e escreva a mensagem: (nome) está com (idade) e pela tabela é considerado um (tipo)
+
 nome = str(input("Qual seu nome: "))
 idade = int(input("Qual sua idade: "))
 tipo = ""

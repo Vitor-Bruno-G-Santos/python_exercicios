@@ -1,3 +1,5 @@
+#Faça um algoritmo que leia o número digitado e verifique se é par ou ímpar.
+
 numero = int(input("Digite um numero: "))
 
 if numero % 2 == 0:
