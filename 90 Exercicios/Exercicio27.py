@@ -7,3 +7,4 @@ colocou à disposição os seguintes dados de 50 alunos:
 #a) A quantidade de alunos do sexo feminino com altura superior a 170 cm.
 #b) A % de alunos do sexo masculino (em relação ao total de alunos do sexo
 masculino) cujo status físico seja bom.'''
+''''''
