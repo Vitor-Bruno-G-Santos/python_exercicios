@@ -12,7 +12,7 @@ def notasAlunos():
             else: 
                 print("As notas devem ser de 0 a 10")
 
-        return notas
+        return notas, quantNotas
     except ValueError:
         print("O numero digitado não é um numero ou não é um numero inteiro")
 def mediaNota(notas : list):
